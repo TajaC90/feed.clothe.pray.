@@ -1,0 +1,94 @@
+.nav{
+	background-color: #FFED69;
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	opacity: .8;
+	margin-top: 20px;
+}
+
+.section1{
+	background-image: url('images/lunchbag.jpg');
+	background-size:cover;
+	height: 100vh;
+}
+
+
+.section2{
+	background-color:black;
+	height: 100vh;
+}
+
+.section3{
+	padding-left: 20px;
+	padding-top: 200px;
+	background-color: white;
+	height: 450px;
+	width: 100%;
+}
+
+.section4{
+	background-color:black;
+	height: 100vh;
+}
+
+.section5{
+	/*background-color:white;*/
+	height: 100vh;
+	background-image: url(images/team2.jpg);
+	background-size: cover;
+}
+.quote{
+	opacity: .8;
+	height: 20vh;
+}
+
+.quote p{
+/*	margin: auto;*/
+	text-align: center;
+	font-size: 170%;
+/*	color:black;*/
+}
+
+.footer{
+	background-color:white;
+	height: 20vh;
+	clear: both; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+#container > img{
+	border-radius: 200px;
+}
+
+ul{
+	display: inline;
+}
+
+li{
+	display: inline-block;
+	/*padding-top: 20px;*/
+	padding-left: 10%;
+	/*margin:20px;*/
+
+}
+
+#logo{
+	padding-left: 20px;
+	height: 55px;
+	width: 55px;
+}
+
+.footer > a img{
+	display: inline-block;
+	position: center;
+	/*padding-left: 15%;*/
+}
+
+.footer > p{
+	padding-left: 57px;
+	color: grey;
+	text-align: center;
+}
+
