@@ -1,65 +1,24 @@
-.nav{
+/*body{
+	overflow: hidden;
+	}
+*/
+	.nav{
 	background-color: #FFED69;
 	height: 65px;
 	width: 100%;
 	position: fixed;
-	opacity: .8;
-	margin-top: 20px;
+	opacity: .9;
 }
 
-.section1{
-	background-image: url('images/lunchbag.jpg');
-	background-size:cover;
-	height: 100vh;
-}
-
-
-.section2{
-	background-color:black;
-	height: 100vh;
-}
-
-.section3{
+#logo{
 	padding-left: 20px;
-	padding-top: 200px;
-	background-color: white;
-	height: 450px;
-	width: 100%;
+	height: 55px;
+	width: 55px;
 }
 
-.section4{
-	background-color:black;
-	height: 100vh;
-}
-
-.section5{
-	/*background-color:white;*/
-	height: 100vh;
-	background-image: url(images/team2.jpg);
-	background-size: cover;
-}
-.quote{
-	opacity: .8;
-	height: 20vh;
-}
-
-.quote p{
-/*	margin: auto;*/
-	text-align: center;
-	font-size: 170%;
-/*	color:black;*/
-}
-
-.footer{
-	background-color:white;
-	height: 20vh;
-	clear: both; 
-	margin: 0 auto; 
-	text-align: center;
-}
-
-#container > img{
-	border-radius: 200px;
+a, a:link, a:hover, a:visited, a:active {
+	text-decoration: none; 
+	color: black;
 }
 
 ul{
@@ -69,26 +28,171 @@ ul{
 li{
 	display: inline-block;
 	/*padding-top: 20px;*/
-	padding-left: 10%;
+	padding-left: 7%;
 	/*margin:20px;*/
+}
+
+/*LANDING/HOME PAGE*/
+
+section{
+	background-attachment: fixed;
+}
+
+.section1{
+	background-image: url(images/team2.jpg);
+	background-size:cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
+	text-transform: bold;
+	font-size: 200%;
+	color: black;
+	text-shadow: 1px 1px yellow;
+}
+
+h2{
+	text-align: center;
+	text-transform: bold;
+	font-size: 160%;
+	color: black;
+}
+
+/*ABOUT PAGE*/
+.section2{
+	background-color: white;
+	height: 100vh;
+	padding-top: 1px;
+	background-attachment: fixed;
+}
+
+.section2 > h1{
+	text-align: center;
+	text-transform: bold;
+	font-size: 200%;
+	color: black;
+	padding-top: 70px;
+	text-shadow: 1px 1px yellow;
+	background-attachment: fixed;
 
 }
 
-#logo{
+.c1{
+	color: black;
+	width: 30%;
+	padding: 5px;
+	float: left;
+	text-align: justify;
+}
+
+
+.c1 img{
+	padding-left: 5%;
+}
+
+.c2{
+	color: black;
+	width: 65%;
+	height: 80vh;
+	padding: 10px;
+/*	padding: 5px;*/
+	float: right;
+	text-align: justify;
+}
+
+h2{
+	color:black;
+	text-decoration: underline;
+}
+
+h3{
+	text-align: center;
+}
+
+
+/*WHAT WE DO PAGE /MISSION*/
+/*.section3{
 	padding-left: 20px;
-	height: 55px;
-	width: 55px;
+	padding-top: 100px;
+	background-color: black;
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+}
+*/
+/*#involved{
+	text-shadow: 1px 1px black;
+}*/
+
+/*p{
+	text-align: center;
+	font-size: 120%;
+}
+*/
+
+#container{
+	padding-top: 80px;
+}
+/*GET INVOLVED PAGE*/
+.section4{
+	background-image: url(images/team.jpg);
+	background-size: cover;
+	height: 100vh;
+	padding-top: 70px;
+	background-attachment: fixed;
 }
 
+
+/*SHOP PAGE*/
+.section5{
+	/*background-color:white;*/
+	height: 100vh;
+	background-color: white;
+	padding-top: 2px;
+	background-attachment: fixed;
+}
+
+.clothes img{
+	margin-top: 25px;
+	margin-left: 225px;
+	padding: 10px;
+}
+
+/*footer page*/
+.footer{
+	background-color:black;
+	height: 40vh;
+	clear: both; 
+/*	margin: 0 auto; */
+	text-align: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+.quote p{
+/*	margin: auto;*/
+	text-align: center;
+	font-size: 170%;
+	color:white;
+/*	color:black;*/
+}
+
+/*circular images*/
+/*#container > img{
+	border-radius: 200px;
+}*/
+
+/*social media linka*/
 .footer > a img{
 	display: inline-block;
 	position: center;
 	/*padding-left: 15%;*/
 }
 
-.footer > p{
-	padding-left: 57px;
-	color: grey;
+#social p{
 	text-align: center;
+	color:pink;
 }
 
