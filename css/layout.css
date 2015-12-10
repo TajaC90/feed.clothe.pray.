@@ -39,7 +39,7 @@ section{
 }
 
 .section1{
-	background-image: url(images/team2.jpg);
+	background-image: url(../images/team2.jpg);
 	background-size:cover;
 	height: 100vh;
 	background-attachment: fixed;
@@ -132,12 +132,12 @@ h3{
 }
 */
 
-#container{
+/*#container{
 	padding-top: 80px;
-}
+}*/
 /*GET INVOLVED PAGE*/
 .section4{
-	background-image: url(images/team.jpg);
+	background-image: url(../images/team.jpg);
 	background-size: cover;
 	height: 100vh;
 	padding-top: 70px;
@@ -147,12 +147,12 @@ h3{
 
 /*SHOP PAGE*/
 .section5{
-	/*background-color:white;*/
 	height: 100vh;
 	background-color: white;
-	padding-top: 2px;
+	padding-top: 40px;
 	background-attachment: fixed;
 }
+
 
 .clothes img{
 	margin-top: 25px;
@@ -163,8 +163,9 @@ h3{
 /*footer page*/
 .footer{
 	background-color:black;
-	height: 40vh;
+	height: 42vh;
 	clear: both; 
+	padding-top: 5px;
 /*	margin: 0 auto; */
 	text-align: center;
 	background-attachment: fixed;
@@ -195,4 +196,13 @@ h3{
 	text-align: center;
 	color:pink;
 }
+
+#copyright{
+	height: 8vh;
+	padding-right: 10px;
+	color:white;
+	background-color: black;
+}
+
+
 
