@@ -1,3 +1,4 @@
+
 /*body{
 	overflow: hidden;
 	}
@@ -160,6 +161,20 @@ h3{
 	padding: 10px;
 }
 
+#apparel1, #apparel2{
+	float: left;
+	padding:10px;
+}
+
+.desc1, .desc2{
+	float:left;
+	padding-left:104px;
+	width:35%;
+}
+
+.paypal_btn{
+	padding-left:300px;
+}
 /*footer page*/
 .footer{
 	background-color:black;
@@ -197,7 +212,7 @@ h3{
 	color:pink;
 }
 
-#copyright{
+#brand{
 	height: 8vh;
 	padding-right: 10px;
 	color:white;
