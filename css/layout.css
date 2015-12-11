@@ -9,12 +9,22 @@
 	width: 100%;
 	position: fixed;
 	opacity: .9;
+	word-spacing: 20px;
+	float: left;
 }
 
 #logo{
-	padding-left: 20px;
-	height: 55px;
-	width: 55px;
+	background-image: url("../images/IMG_3002.jpg");
+	background-size: cover;
+	float:left;
+	height: 61px;
+	width: 7%;
+}
+
+#menu{
+/*	float:right;*/
+	width:95%;
+	padding-top: 16px;
 }
 
 #donate{
@@ -22,8 +32,6 @@
 	border-radius: 10px;
 	padding:3px;
 	margin-left: 60px;
-	margin-bottom: 2px;
-	padding-bottom: -83px;
 }
 
 a, a:link, a:hover, a:visited, a:active {
@@ -37,9 +45,7 @@ ul{
 
 li{
 	display: inline-block;
-	/*padding-top: 20px;*/
 	padding-left: 7%;
-	/*margin:20px;*/
 }
 
 /*LANDING/HOME PAGE*/
