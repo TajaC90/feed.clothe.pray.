@@ -145,10 +145,19 @@ h3{
 	background-attachment: fixed;
 }
 
+.vol1, .vol2{
+	float: left;
+	width: 43%;
+}
+
 .vol1{
 padding-bottom: 20px;
 padding-top: 30px;
 padding-left: 80px;
+}
+
+.vol2{
+	color:black;
 }
 
 
@@ -186,15 +195,15 @@ padding-left: 80px;
 	background-color:black;
 	height: 42vh;
 	clear: both; 
-	padding-top: 5px;
-/*	margin: 0 auto; */
+	/*padding-top: 5px;*/
+/*	margin-top: 5px;*/
 	text-align: center;
 	background-attachment: fixed;
 	color: white;
 }
 
 .quote p{
-/*	margin: auto;*/
+	padding-top: 15px;
 	text-align: center;
 	font-size: 170%;
 	color:white;
@@ -216,7 +225,7 @@ padding-left: 80px;
 
 #brand{
 	height: 8vh;
-	padding-right: 10px;
+	/*padding-right: 10px;*/
 	color:white;
 	background-color: black;
 }
