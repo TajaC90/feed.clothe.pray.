@@ -138,11 +138,17 @@ h3{
 }*/
 /*GET INVOLVED PAGE*/
 .section4{
-	background-image: url(../images/team.jpg);
+	background-image: url(../images/pray.jpg);
 	background-size: cover;
 	height: 100vh;
 	padding-top: 70px;
 	background-attachment: fixed;
+}
+
+.vol1{
+padding-bottom: 20px;
+padding-top: 30px;
+padding-left: 80px;
 }
 
 
@@ -169,7 +175,7 @@ h3{
 .desc1, .desc2{
 	float:left;
 	padding-left:104px;
-	width:35%;
+	width:34%;
 }
 
 .paypal_btn{
@@ -195,10 +201,6 @@ h3{
 /*	color:black;*/
 }
 
-/*circular images*/
-/*#container > img{
-	border-radius: 200px;
-}*/
 
 /*social media linka*/
 .footer > a img{
